@@ -1,0 +1,6 @@
+mail:
+  protocol: smtp
+  host: smtp.qq.com
+  username: 841339477@qq.com
+  password: fjlijun1991
+

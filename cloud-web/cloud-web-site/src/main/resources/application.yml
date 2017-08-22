@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring.application.name: website
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: true
+    serviceUrl:
+          defaultZone: ${EUREKA_URI:http://mail:8761/eureka}
