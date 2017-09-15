@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>com.libra</groupId>
+        <groupId>com.toddler</groupId>
         <artifactId>cloud-web</artifactId>
         <version>1.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.libra</groupId>
+    <groupId>com.toddler</groupId>
     <artifactId>cloud-web-service</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
@@ -20,17 +20,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.libra</groupId>
+            <groupId>com.toddler</groupId>
             <artifactId>cloud-mail-service-interface</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.libra</groupId>
+            <groupId>com.toddler</groupId>
             <artifactId>cloud-storage-service-interface</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.libra</groupId>
+            <groupId>com.toddler</groupId>
             <artifactId>cloud-core</artifactId>
             <version>1.0</version>
             <exclusions>

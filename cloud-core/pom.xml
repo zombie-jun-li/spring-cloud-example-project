@@ -9,7 +9,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.libra</groupId>
+    <groupId>com.toddler</groupId>
     <artifactId>cloud-core</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
