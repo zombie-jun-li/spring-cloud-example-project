@@ -8,10 +8,11 @@
     <version>1.0</version>
 
     <modules>
-        <module>cloud-core</module>
-        <module>cloud-mail</module>
-        <module>cloud-storage</module>
-        <module>cloud-web</module>
+        <module>example-core</module>
+        <module>example-mail</module>
+        <module>example-storage</module>
+        <module>example-web</module>
+        <module>cloud-module</module>
     </modules>
 
     <properties>

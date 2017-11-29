@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring.application.name: mail
+
+eureka:
+  instance:
+      hostname: mail
+  client:
+      registerWithEureka: true
+      fetchRegistry: false
+      server:
+        waitTimeInMsWhenSyncEmpty: 0
+
+
