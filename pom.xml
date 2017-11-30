@@ -13,6 +13,7 @@
         <module>example-storage</module>
         <module>example-web</module>
         <module>cloud-module</module>
+        <module>cloud-dependency</module>
     </modules>
 
     <properties>
@@ -123,19 +124,6 @@
                     </executions>
                 </plugin>
 
-
-                <plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>1.5.4.RELEASE</version>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>repackage</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
